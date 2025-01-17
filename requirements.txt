@@ -1,0 +1,2 @@
+  numpy>=1.21.0
+  sigmoidNN>=0.1.0
