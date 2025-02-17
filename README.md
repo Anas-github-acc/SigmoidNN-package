@@ -32,7 +32,7 @@ CrossEntropyCost, QuadraticCost are the activation function you can import to us
 from sigmoid import load_data, load_data_wrapper
 ```
 
-For training and testing, you need dataset in list(zip(input, output)) from, where each input and output is the list and output is vectorized form of output
+For training and testing, you need dataset in list(zip(input, output)) form, where each input and output is the list and output is vectorized form of output
 
 `load_data(filepath)` method load the data from the file where as `load_data_wrapper(file_path, input_layer, output_layer, [vectorized=True | False])` method convert the load the data from the file and convert it to list(zip(input, output)) form ( note, your data file should be in the format of input and output separated by comma)
 
